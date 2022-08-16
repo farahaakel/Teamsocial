@@ -1,0 +1,103 @@
+
+@font-face {
+  font-family: sondos;
+  src: url("font/RTL-Sondos-Regular.otf") format("opentype");
+  font-display: block;
+}
+@font-face {
+  font-family: sondosH;
+  src: url("font/RTL-Sondos-Black.otf") format("opentype");
+  font-display: block;
+}
+.body{
+    font-family: sondos;
+    direction: rtl !important;
+    text-align: right;
+    font-size: 20px !important;
+}
+.navbar ul{
+    /*float: right !important;*/
+    text-align: right;
+    direction: rtl;
+  }
+  .navbar .dropdown ul{
+    left: -14px !important;
+  }
+  .navbar{
+      float: right;
+      z-index: 7000;
+  }
+
+
+
+
+  
+  .navbar a{
+      font-size: 18px !important;
+  }
+  #hero h1{
+      text-align: right;
+      direction: rtl;
+  }
+  #hero .btn-get-started {
+      margin: 10px 20px 0 60px !important;
+      font-family: sondos;
+  }
+  .btn-get-started{
+    font-family: sondos !important;
+    margin: 30px 7px;
+  }
+  .about{
+    direction: rtl;
+    text-align: right;
+    font-size: 18px;
+  }
+  /*#team{
+    direction: rtl;
+  }*/
+  .member-info{
+    padding: 10px;
+  }
+  .team .member span::after {
+    display: none !important;
+  
+  }
+  #contact{
+    direction: rtl;
+    text-align: right;
+  }
+  #footer{
+    direction: rtl;
+    text-align: right;
+  }
+   #portfolio-flters{
+     direction: rtl;
+   }
+   
+  
+   #services{
+     direction: rtl;
+   }
+   .inner-page{
+     direction: rtl;
+   }
+   .inner-page p{
+     font-size: 18px;
+   }
+   .about .content .description{
+    margin-top: 80px !important;
+  }
+  .email{
+    text-transform: lowercase;
+  }
+  .modal-header .btn-close {
+  
+    margin: 0px !important;
+  }
+  .member-table.one{
+    direction: rtl;
+    text-align: right;
+  }
+  .card-creatorB{
+    text-align: left;
+  }
